@@ -1,0 +1,23 @@
+# ignore all the home files
+./*
+
+# only add the specific files to the git
+!.gitignore
+
+!.zshrc
+!.bash_logout
+!.bash_profile
+!.bashrc
+!.p10k.zsh
+!.pam_environment
+!.tmux.conf
+!.vimrc
+!.zshrc
+!.tmux
+
+!.config/alacritty/*
+!.config/fcitx5/*
+!.config/Kvantum/*
+!.config/neofetch/*
+!.config/ranger/*
+!.config/rofi/*
