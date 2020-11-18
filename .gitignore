@@ -12,8 +12,6 @@
 !.pam_environment
 !.tmux.conf
 !.vimrc
-!.zshrc
-!.tmux
 
 !.config/alacritty/*
 !.config/fcitx5/*
