@@ -8,6 +8,7 @@
 .vimrc
 
 .config/alacritty
+.config/clash/Country.mmdb
 .config/fcitx5
 .config/Kvantum
 .config/neofetch
