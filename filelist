@@ -6,3 +6,10 @@
 .pam_environment
 .tmux.conf
 .vimrc
+
+.config/alacritty
+.config/fcitx5
+.config/Kvantum
+.config/neofetch
+.config/ranger
+.config/rofi

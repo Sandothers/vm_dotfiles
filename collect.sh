@@ -1,9 +1,9 @@
 #!/bin/bash
 
-path="/home/guanhuo/"
-
-mapfile file_array < filelist
-for file in ${file_array[*]};
+DIR=$HOME/vm_dotfiles/
+mapfile FILE_ARRAY < filelist
+cd $HOME
+for FILE in ${FILE_ARRAY[*]};
 do
-    cp -f $path$file $file
+    cp -rfu --parents $FILE $DIR
 done

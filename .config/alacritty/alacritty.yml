@@ -1,0 +1,70 @@
+# 默认窗口无标题栏，16:9的窗口比例启动
+window:
+  #    decorations: "none"
+    dimensions:
+      columns: 120
+      lines: 35
+padding:
+    x: 10
+    y: 10
+# shell:
+#      program: /usr/bin/tmux
+#      args:
+#       - -u # force UTF-8 in tmux
+env:
+    TERM: xterm-256color
+
+# 背景半透明，方便抄代码
+#background_opacity: 0.8
+
+# 实时重载配置文件，不用重启测试配置选项
+live_config_reload: true
+
+colors:
+  # Default colors
+  primary:
+    background: '#2F343F'
+    foreground: '#EBEBEB'
+
+  # Cursor colors
+  cursor:
+   text: '#FF261E'
+   cursor: '#FF261E'
+
+  # Normal colors
+  normal:
+    black:   '#0d0d0d'
+    red:     '#FF301B'
+    green:   '#A0E521'
+    yellow:  '#FFC620'
+    blue:    '#1BA6FA'
+    magenta: '#8763B8'
+    cyan:    '#21DEEF'
+    white:   '#EBEBEB'
+
+  # Bright colors
+  bright:
+    black:   '#6D7070'
+    red:     '#FF4352'
+    green:   '#B8E466'
+    yellow:  '#FFD750'
+    blue:    '#1BA6FA'
+    magenta: '#A578EA'
+    cyan:    '#73FBF1'
+    white:   '#FEFEF8'
+
+# 字体设置为等宽字体，可以用命令 fc-list 查看你系统的字体
+font:
+  size: 11
+
+  normal:
+    family: FiraCode Nerd Font Mono
+    style: Regular
+
+  bold:
+    family: FiraCode Nerd Font Mono
+    style: Bold
+
+  italic:
+    family: FiraCode Nerd Font Mono
+    style: Italic
