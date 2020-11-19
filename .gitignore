@@ -1,2 +1,4 @@
 !.gitignore
 .config/ranger/plugins/*
+.config/xfce4/desktop/*
+.config/xfce4/helpers.rc
