@@ -1,12 +1,12 @@
 [Configuration]
-FontName=FiraCode Nerd Font Mono weight=450 12
+FontName=FiraCode Nerd Font Mono weight=450 11
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBellUrgent=FALSE
 MiscBordersDefault=TRUE
 MiscCursorBlinks=FALSE
 MiscCursorShape=TERMINAL_CURSOR_SHAPE_BLOCK
-MiscDefaultGeometry=120x30
+MiscDefaultGeometry=110x30
 MiscInheritGeometry=FALSE
 MiscMenubarDefault=TRUE
 MiscMouseAutohide=FALSE
@@ -36,5 +36,4 @@ ColorCursor=#93a1a1
 ColorBold=#93a1a1
 TabActivityColor=#72729f9fcfcf
 ColorBoldUseDefault=FALSE
-FontUseSystem=TRUE
 
